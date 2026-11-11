@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lâmina das Ondas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+  <div id="banner"></div>
+
+  <div id="hud" style="display:none;">
+    <div>
+      <div class="bar"><div id="hp" class="fill"></div></div>
+      <div id="lv" style="font-weight:bold; font-size:13px; text-shadow:0 1px 3px #000;">Nível 1</div>
+      <div id="wv" style="color:#3ddc97; font-weight:bold; margin-top:4px;">Onda 1</div>
+      <div id="en" style="font-size:12px; color:#8fa39b;">Inimigos: 0</div>
+    </div>
+
+    <div style="text-align: right;">
+      <div id="co" style="color:#ffb02e; font-weight:bold; font-size:18px;">Moedas: 0</div>
+      <div id="mt" style="font-size:12px; color:#a0b0a8; margin-top:2px;"></div>
+      <div id="wn" style="font-weight:bold; margin-top:8px;"></div>
+      <div class="bar" style="width:180px; height:8px; margin-left:auto; margin-top:4px;"><div id="wx" class="fill xp"></div></div>
+      <div id="ac" style="font-size:11px; color:#8fa39b; margin-top:2px;"></div>
+    </div>
+  </div>
+
+  <div id="ov">
+    <div id="pn"></div>
+  </div>
+
+  <div id="adm" hidden></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
